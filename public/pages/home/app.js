@@ -2,9 +2,9 @@
 
 const app = {};
 
-function Home(Vue) {
-    const vm = new Vue({
-        el: '#csati',
+function home(Vue) {
+    app.view = new Vue({
+        el: '#app',
         data: {
             name: 'majom'
         }
@@ -18,5 +18,5 @@ function Home(Vue) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    Home(Vue);
+    home(Vue);
 });

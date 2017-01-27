@@ -21,5 +21,5 @@ app.get('/queryfood/:text', function(req, res) {
 });
 
 app.listen(portNumber, function () {
-    console.log('Example app listening on port ' + portNumber);
+    console.log('App listening on port ' + portNumber + '...');
 });

@@ -5,8 +5,11 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Home</h1>
-        <div id="csati">Csati is a {{name}}.</div>
+        <div id="app">
+            <h1>Home</h1>
+            <div>Csati is a {{name}}.</div>
+            <suggest :suggestion="name"></suggest>
+        </div>
 
         <script src="../../lib/Vue.js"></script>
         <script src="../../lib/bella.js"></script>
@@ -14,5 +17,6 @@
         <script src="app.js"></script>
 
         <script src="../../js/Store.js"></script>
+        <script src="../../cmp/suggest/suggest.js"></script>
     </body>
 </html>
